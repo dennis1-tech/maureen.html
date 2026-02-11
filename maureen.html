@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Valentine's Day Maureen</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 80px;
+        }
+
+        h1 {
+            color: #b30059;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #660033;
+        }
+
+        .flower {
+            font-size: 100px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .message-box {
+            background-color: white;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #ff4d6d;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #e6004c;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌹 Happy Valentine's Day Maureen 🌹</h1>
+
+    <div class="flower">🌹</div>
+
+    <div class="message-box">
+        <p>Dear Maureen,</p>
+        <p>You are an amazing friend and I appreciate you so much. 💕</p>
+        <p>May your day be filled with love, happiness, and beautiful flowers!</p>
+        <p>Happy Valentine's Day! 💖</p>
+    </div>
+
+    <br>
+
+    <button onclick="showLove()">Click for a Surprise 💝</button>
+
+    <script>
+        function showLove() {
+            alert("Maureen, you are truly special! 🌸💖 Happy Valentine's Day!");
+        }
+    </script>
+
+</body>
+</html>
